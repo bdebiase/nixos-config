@@ -42,6 +42,7 @@ in {
       appimage-run
       bottles
       (ollama.override {acceleration = "cuda";})
+      inputs.zed-editor.packages.${system}.default
     ];
   };
 

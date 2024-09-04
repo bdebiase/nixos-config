@@ -14,6 +14,7 @@
     programs.vesktop
     programs.vscode
     programs.tmux
+    programs.quickshell
 
     # custom web apps
     programs.bandlab

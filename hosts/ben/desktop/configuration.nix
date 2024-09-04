@@ -76,7 +76,7 @@ in {
       devices = {
         "surface-laptop".id = "DVGBQSI-M7XLNZJ-I34CMWR-O4MJQKT-ZH4IGWA-DZO6MXS-SGI7BOH-SZKB4AL";
         "samsung-phone".id = "ILJUQUQ-55IYYIO-LBQ66ZC-7UZDPR3-FER5YO5-KRM2SDX-VXWOH6H-VLWOMQG";
-        "hp-laptop".id = "ZOBRBCR-VIAVOBM-636NUXN-2ITUX57-YTX3SE5-VFVDA2E-2VKSCFI-MZCFNQU";
+        #"hp-laptop".id = "ZOBRBCR-VIAVOBM-636NUXN-2ITUX57-YTX3SE5-VFVDA2E-2VKSCFI-MZCFNQU";
         "thinkpad-laptop".id = "MDC3QPE-N6PPPUM-6TVWPFQ-2DNR4OG-4J3C6MB-5XP3J7A-FREPFEZ-PUBOYQN";
         "mono-desktop".id = "IGL6Y24-HLWHS6L-CMNZ2YA-2OQLWPQ-W3QAQX2-ZZ5RN44-336PXTH-FV4QFQL";
       };
@@ -84,7 +84,8 @@ in {
       folders = {
         "nixos-config" = {
           path = "~/.config/nixos/";
-          devices = ["surface-laptop" "hp-laptop" "thinkpad-laptop" "mono-desktop"];
+          #devices = ["surface-laptop" "hp-laptop" "thinkpad-laptop" "mono-desktop"];
+          devices = ["surface-laptop" "thinkpad-laptop" "mono-desktop"];
           versioning = {
             type = "simple";
             params.keep = "10";

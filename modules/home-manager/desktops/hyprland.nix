@@ -47,7 +47,6 @@
     packages = with pkgs; [
       inputs.hyprland-contrib.packages.${pkgs.system}.grimblast
 
-      cliphist
       loupe # image viewer
       clapper # video player
       snapshot # camera app

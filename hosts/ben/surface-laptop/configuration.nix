@@ -10,7 +10,7 @@
   nixosModules = with self.nixosModules; [
     common
 
-    #power-saving
+    power-saving
 
     desktops.hyprland
     #desktops.plasma6

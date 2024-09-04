@@ -44,11 +44,14 @@
       url = "github:lilyinstarlight/nixos-cosmic";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    zed-editor = {
+      url = "github:zed-industries/zed";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: let
     inherit (inputs.nixpkgs.lib) nixosSystem;
-    inherit (inputs.nixpkgs) lib;
     system = "x86_64-linux";
 
     createSystem = username: hostname: configPath:

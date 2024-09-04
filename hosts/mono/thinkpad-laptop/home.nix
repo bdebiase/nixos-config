@@ -32,7 +32,7 @@
       john
       hashcat
       ffuf
-      protonvpn-cli
+      protonvpn-gui
     ];
   };
 
