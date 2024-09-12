@@ -192,6 +192,7 @@
             installCargo = false;
             installRustc = false;
           };
+          html.enable = true;
           clangd.enable = true;
           lua-ls.enable = true;
           nil-ls.enable = true;

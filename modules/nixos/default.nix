@@ -7,6 +7,7 @@
   gaming = import ./gaming.nix;
   kdeconnect = import ./kdeconnect.nix;
   logitech = import ./logitech.nix;
+  mysql = import ./mysql.nix;
   nvidia = import ./nvidia.nix;
   power-saving = import ./power-saving;
   rt-audio = import ./rt-audio.nix;
